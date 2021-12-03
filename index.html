@@ -1,33 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Responsive Landing Page - Apple ipods</title>
-    <link rel="stylesheet" href="assets/css/style.css"> 
-    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
-
-</head>
-<body>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <!-- HEADER -->
     <header>
-        <nav class="nav"> 
+      <nav class="nav">
+        <a href="#" class="nav__logo">AirPods</a>
+        <div class="nav__menu show-menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#" class="nav__link">Description</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Features</a>
+            </li>
+          </ul>
+        </div>
 
-        </nav> 
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#" class="nav__link">Description</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Features</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link active">Compare</a>
+            </li>
+          </ul>
+        </div>
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
     </header>
 
     <!-- MAIN CONTENT -->
-    <main> 
-        
+    <main>
+      <!-- HOME -->
+      <section class="home1">
+        <div class="sub_menu">
+          <div class="sub1">
+            <a href="homework3-koraykolburan/assets/img/icon1.svg" class="">
+              <span>AirPods <br />2</span></a
+            >
+          </div>
+          <div class="sub1">
+            <a href="homework3-koraykolburan/assets/img/icon1.svg" class="">
+              <span>AirPods <br />Pro</span></a
+            >
+          </div>
+          <div class="sub1">
+            <a href="homework3-koraykolburan/assets/img/icon1.svg" class="">
+              <span>AirPods <br />Max</span></a
+            >
+          </div>
+          <div class="sub1">
+            <a href="assets/img/icon4.svg" class="">
+              <span>Apple Music</span></a
+            >
+          </div>
+        </div>
+      </section>
+      <section class="home2">
+        <div class="row justify-content-spacebetween">
+          <h1 class="home__title">AirPods</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+            accusantium, earum vitae commodi, a aliquid accusamus eos atque aut
+            autem officia placeat perspiciatis?
+          </p>
+          <div class="image1">
+            1
+            <!-- <img class="img1" src="assets/img/airpod1.png" alt="airpod" />-->
+          </div>
+          <div class="image1">
+            1
+            <!-- <img class="img1" src="assets/img/airpod2.png" alt="airpod" />-->
+          </div>
+        </div>
+      </section>
     </main>
 
     <!-- FOOTER -->
-    <footer id="footer"> 
-
-    </footer>
+    <footer id="footer"></footer>
 
     <!-- MAIN JS -->
     <script src="assets/js/main.js"></script>
-</body>
+  </body>
 </html>
