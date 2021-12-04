@@ -1,15 +1,28 @@
 .home1 {
   display: flex;
   justify-content: space-around;
-  margin-top: 120px;
   text-align: center;
   font-size: inherit;
+  .sub_menu {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 .home2 {
   height: 100vh;
-  min-height: 500px;
   display: flex;
   justify-content: space-between;
+  .exp {
+    h1 {
+      color: black;
+      p {
+        text-align: left;
+      }
+    }
+  }
+  img {
+    width: 100%;
+  }
 }
 .row {
   display: flex;
@@ -20,4 +33,3 @@
 .justify-content-spacebetween {
   justify-content: space-between;
 }
-/* Devam edilecek..*/
